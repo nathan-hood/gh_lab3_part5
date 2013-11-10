@@ -1,0 +1,78 @@
+Script started on Sun Nov 10 03:02:18 2013
+[?1034hbash-3.2$ javac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[Cbash[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pjunit-4.11.jar:easymock-3.0.jar:. TestJukebox.java Jukebox.java [B[C[C[C[C[C[C[C[C[C[Cls[Kjavac -cp junit-4.11.jar:easymock-3.0.jar:. TestJukebox.java Jukebox.java [B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[Cbash[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[C[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[Cbash[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pjunit-4.11.jar:easymock-3.0.jar:. TestJukebox.java Jukebox.java [B[C[C[C[C[C[C[C[C[C[Cls[Kcd src[4Plscd_aptsource ~/.bash_profile[C[C[C[C[C[C[C[C[C[C[3Pvi ~/.bash_profile [C[C[C[C[C[C[C[C[C[Cls [K./aescryptnh.bin 1 output05.aes decrypted05.txt hex:00000000000000000000000000000001[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P0 input output05.aes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10@1 output05.aes decrypted05.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls [K[16@vi ~/.bash_profile[C[C[C[C[C[C[C[C[C[C[Csource ~/.bash_profile[C[C[C[C[C[C[C[C[C[Ccd_apt[K[4Plscd src[4Plsjavac -cp junit-4.11.jar:easymock-3.0.jar:. TestJukebox.java Jukebox.java [B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[Cbash[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[C[Kjavac -cp ../lib/junit-4.11.jar:../lib/easymock-3.0.jar:. TestJukebox.java Jukebox.java[C[C[C[C[C[C[C[C[C[C[Kjavac -cp selenium-server-standalone-2.37.0.jar:junit-4.11.jar:. WebAppTest.java
+bash-3.2$ java -cp junit-4.11.jar:.:hamcrest-core-1.3.jar:selenium-server-standalone-2.37.0.jar org.junit.runner.JUnitCore  WebAppTest
+JUnit version 4.11
+.E.E.
+Time: 17.156
+There were 2 failures:
+1) testBobAnd213FConversion(WebAppTest)
+junit.framework.ComparisonFailure: Checking for 213F -> 100.6C expected:<100.[]6> but was:<100.[5]6>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:261)
+	at WebAppTest.testBobAnd213FConversion(WebAppTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+2) testAndyLoginAnd32F(WebAppTest)
+junit.framework.ComparisonFailure: Checking for 32F -> 0.00C expected:<0[.00]> but was:<0[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:261)
+	at WebAppTest.testAndyLoginAnd32F(WebAppTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
+bash-3.2$ exit
+
+Script done on Sun Nov 10 03:03:59 2013
